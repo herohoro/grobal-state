@@ -4,7 +4,6 @@ import { Card } from "./components/Card";
 export const App = () => {
   //管理者フラグ
   const [isAdmin, setIsAdmin] = useState(false);
-
   //切り替え_押下時
   const onClickSwitch = () => setIsAdmin(!isAdmin);
   return (
