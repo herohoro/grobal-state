@@ -13,12 +13,10 @@ const style = {
 };
 
 export const Card = (props) => {
-  //propsとして管理者フラグを受け取る
-  const { isAdmin } = props;
   return (
     <div style={style}>
       <p>へろほろ</p>
-      <EditButton isAdmin={isAdmin} />
+      <EditButton />
     </div>
   );
 };
